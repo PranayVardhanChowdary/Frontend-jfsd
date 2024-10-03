@@ -1,0 +1,67 @@
+/* Reset some default styles for body and margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Navigation bar styles with rounder borders */
+.navbar {
+    background-color: #37517e;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px; /* Adding rounder borders */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Style for count cards */
+.count-card {
+    width: 300px;
+    height: 150px;
+    background-color: #37517e;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-card h2 {
+    font-size: 24px;
+}
+
+.count-card p {
+    font-size: 18px;
+}
+
+/* Style for the container of count cards (to center them horizontally) */
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center the count cards horizontally */
+}

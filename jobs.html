@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="stylesheet" href="jobs.css">
+  <style>
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style for the sidebar */
+        .admin-sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+            color: #fff;
+        }
+
+        .admin-sidebar h1{
+            margin-top: 0px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+           /* text-transform: uppercase; */
+           text-align: center;
+           
+        }
+        /* Style for the links in the sidebar */
+        .admin-sidebar a {
+            padding: 20px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+           
+        }
+
+        /* Hover effect for sidebar links */
+        .admin-sidebar a:hover {
+            background-color: #555;
+        }
+
+        /* Style for the navbar */
+        .admin-navbar {
+            height: 60px;
+            width: 100%;
+            background-color: #444;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 250px; /* Adjust this to match the width of the sidebar */
+            color: #fff;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        
+
+        /* Style for the main content area */
+        .content {
+            margin-left: 250px; /* Adjust this to match the width of the sidebar */
+            margin-top: 80px; /* Adjust this to match the height of the navbar */
+            padding: 20px;
+        }
+
+        /* Add some content to the main area for demonstration */
+        .content p {
+            font-size: 24px;
+        }
+
+        /* Style for the dropdown container */
+        .dropdown-container {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+            
+        }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            width: 250px;
+            z-index: 1;
+        }
+
+        /* Style for the dropdown links */
+        .dropdown-content a {
+            padding: 20px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+        }
+
+        /* Hover effect for dropdown links */
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+
+        /* Show dropdown content on hover */
+        .dropdown-container:hover .dropdown-content {
+            display: block;
+        }
+
+  </style>
+</head>
+<body>
+    <!-- Sidebar -->
+<div class="admin-sidebar">
+    <h1>Placment Recruitment</h1>
+    <br>
+    <a href="home.html">Home</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="DepartmentSection.html">Applications</a>
+    <a href="changepass.html">Change Password</a>
+    <a href="DepartmentSection.html">Logout</a>
+   
+ 
+</div>
+
+<!-- Navbar -->
+<div class="admin-navbar">
+    
+    
+</div>
+
+<div class="Employee-list">
+    <a href="addJob.html" class="add-button">Add JOB</a>
+    
+ 
+</div>
+
+
+</body>
+</html>

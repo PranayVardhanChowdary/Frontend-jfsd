@@ -1,0 +1,82 @@
+/* Reset some default browser styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #007BFF;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+/* Style navigation bar links */
+nav a {
+  text-decoration: none;
+  color: #fff; /* White color */
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Blue background color */
+  border-radius: 5px;
+}
+
+/* Style the page header */
+h3 {
+  font-size: 24px;
+  margin: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Style the sections */
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style section headers */
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style list items */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Style links in the list */
+ul li a {
+  text-decoration: none;
+  color: #007BFF; /* Blue color */
+  font-weight: bold;
+}
+
+/* Change link color on hover */
+ul li a:hover {
+  color: #0056b3; /* Darker blue color on hover */
+}

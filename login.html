@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Person Login Form</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body onload="getCaptcha()">
+  <header>
+    
+  </header>
+  <main>
+    <table>
+      <tr>
+        <td style="width:100px">User Type</td>
+        <td>
+          <select id="userType">
+            <option value="students">Student</option>
+            <option value="company">Company</option>
+            <option value="admin">Admin</option>
+            <option value="university">University</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td> <input type="text" id="T1" /> </td>
+      </tr>
+      <tr>    
+        <td>Password</td>
+        <td> <input type="password" id="T2" /> </td>
+      </tr>
+      <tr>    
+        <td></td>
+      </tr>
+    </table>
+
+    <!-- CAPTCHA HTML -->
+    <script src="login.js" type="text/javascript"></script>
+
+    <img id="captchaImage" src="" alt="Captcha" />
+    <br>
+    <input type="text" id="captchaInput" placeholder="Enter CAPTCHA" />
+    <br>
+    <button onclick="validateCaptcha()">Login</button>
+    <br>
+    <p>If you are a new user, click <a href="registration.html">here</a> to register.</p>
+    <p id="validationResult"></p>
+    
+  </main>
+</body>
+</html>

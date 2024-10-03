@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+      <link rel="stylesheet" type="text/css" href="registration.css">
+
+</head>
+<body>
+    <h2>Registration</h2>
+    <form id="registrationForm">
+     <label for="registerAs">Register As:</label>
+    <select id="registerAs" name="registerAs" required>
+        <option value="Student">Student</option>
+        <option value="College">College</option>
+        <option value="Company">Company</option>
+    </select>
+    <br>
+    <br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="button" id="verifyEmailButton">Verify Email</button>
+        <br>
+        <label for="otp">Enter OTP:</label>
+        <input type="text" id="otp" name="otp" required>
+        <button type="button" id="verifyOTPButton">Verify OTP</button>
+    </form>
+    <p id="registrationMessage"></p>
+
+    <script src="registration.js"></script>
+</body>
+</html>
